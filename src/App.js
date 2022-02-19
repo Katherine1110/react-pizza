@@ -1,4 +1,4 @@
-import { Header, Categories } from './components';
+import { Header, Categories, ProductItem } from './components';
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <Categories 
       onClick={(name)=>console.log(name)}
       items={['Все', 'Мясные', 'Вегетарианские', 'Острые', 'Гриль', 'Закрытые']} />
+      <ProductItem/>
     </>
   );
 }
