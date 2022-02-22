@@ -7,6 +7,7 @@ import { SortPopUp } from '../../components';
 
 function Categories({ items }) {
   const [activeItem, setActiveItem] = useState(0);
+  // console.log(activeItem);
 
   const onClickItem = (index) => {
     setActiveItem(index);

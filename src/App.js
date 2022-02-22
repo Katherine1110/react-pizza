@@ -1,14 +1,15 @@
-import { Header, Categories, ProductItem } from './components';
+import { Header, Categories, ProductsList } from './components';
 
 function App() {
   return (
-    <>
+    <div className="mainContainer">
       <Header />
-      <Categories 
-      onClick={(name)=>console.log(name)}
-      items={['Все', 'Мясные', 'Вегетарианские', 'Острые', 'Гриль', 'Закрытые']} />
-      <ProductItem/>
-    </>
+      <Categories
+        onClick={(name) => console.log(name)}
+        items={['Все', 'Мясные', 'Вегетарианские', 'Острые', 'Гриль', 'Закрытые']}
+      />
+      <ProductsList />
+    </div>
   );
 }
 

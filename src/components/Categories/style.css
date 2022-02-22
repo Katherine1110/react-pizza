@@ -1,11 +1,11 @@
-.chosen{
-    background: #000;
-    color: #fff;
+.chosen {
+  background: #000;
+  color: #fff;
 }
 
-.categoriesList{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    padding-left: 0px;
+.categoriesList {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding-left: 0px;
 }

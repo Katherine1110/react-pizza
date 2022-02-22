@@ -36,11 +36,11 @@ function SortPopUp({ items }) {
         </div>
         {visiblePopUp && (
           <div className="sort__popup">
-            <ul>
+            <ul className="list-group list-group-flush">
               {items.map((name, index) => (
                 <li
-                key={`${name}_${index}`}
-                  className={activeItem === index ? 'chosen' : ''}
+                  key={`${name}_${index}`}
+                  className={activeItem === index ? 'list-group-item active' : 'list-group-item'}
                   onClick={() => {
                     onClickItem(index);
                   }}>
